@@ -3,3 +3,4 @@ project(B2)
 
 file(GLOB SOURCES "*.cpp")
 add_library(B2 ${SOURCES})
+target_include_directories(B2 PUBLIC .)
